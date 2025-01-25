@@ -22,5 +22,6 @@ export const config: Config = {
   ],
   testing: {
     browserHeadless: "new",
+    browserArgs: ['--no-sandbox', '--disable-setuid-sandbox']
   },
 };
